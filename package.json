@@ -1,4 +1,5 @@
 {
+  "homepage": "https://block-fellas.github.io/CrosZk",
   "name": "blk-design-system-react",
   "version": "1.2.2",
   "description": "React version of BLK Design System by Creative Tim",
@@ -12,7 +13,6 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
   },
-  "homepage": "https://block-fellas.github.io",
   "keywords": [
     "react",
     "reactjs",
