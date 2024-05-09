@@ -37,6 +37,7 @@ export default function PageHeader() {
             A beautiful Design System for Bootstrap 4 (reactstrap) and React.
             It's Free and Open Source.
           </h3>
+          <button></button>
         </div>
       </Container>
     </div>
