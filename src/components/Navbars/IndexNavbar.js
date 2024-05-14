@@ -81,9 +81,6 @@ export default function IndexNavbar() {
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
           CrosZK
           </NavbarBrand>
-          <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Creative Tim
-          </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
             className="navbar-toggler navbar-toggler"

@@ -32,13 +32,13 @@ import {
 export default function Footer() {
   return (
     <footer className="footer ">
-      <Container>
+      <Container >
         <Row>
           <Col md="12">
             <h1 className="title">CrosZK</h1>
           </Col>
           <Col md="12">
-            <h3 className="title">Follow us:</h3>
+            <h3 className="title">Follow uss:</h3>
             <div className="btn-wrapper profile">
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"

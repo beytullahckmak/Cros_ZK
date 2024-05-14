@@ -56,9 +56,6 @@ export default function ExamplesNavbar() {
           <NavbarBrand to="/" id="navbar-brand" tag={Link}>
           CrosZK
           </NavbarBrand>
-          <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Creative Tim
-          </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
             className="navbar-toggler navbar-toggler"
