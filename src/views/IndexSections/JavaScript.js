@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.2.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import classnames from "classnames";
 // react plugin used to create datetimepicker
@@ -105,6 +88,13 @@ export default function JavaScript() {
             <h3>Carousel</h3>
           </div>
           <Row className="justify-content-between align-items-center">
+            <Col lg="6">
+              <UncontrolledCarousel
+                items={carouselItems}
+                indicators={false}
+                autoPlay={false}
+              />
+            </Col>
             <Col className="mb-5 mb-lg-0" lg="5">
               <h1 className="text-white font-weight-light">
                 Bootstrap carousel
@@ -115,13 +105,7 @@ export default function JavaScript() {
                 good to go.
               </p>
             </Col>
-            <Col lg="6">
-              <UncontrolledCarousel
-                items={carouselItems}
-                indicators={false}
-                autoPlay={false}
-              />
-            </Col>
+
           </Row>
         </Container>
       </div>

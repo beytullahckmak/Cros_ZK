@@ -34,27 +34,6 @@ export default function NucleoIcons() {
               System PRO Make sure you check all of them and use those that you
               like the most.
             </h4>
-            <div className="btn-wrapper">
-              <Button
-                className="btn-round"
-                color="primary"
-                href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/icons"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                View Demo Icons
-              </Button>
-              <Button
-                className="btn-simple btn-round"
-                color="primary"
-                href="https://nucleoapp.com/?ref=1712"
-                rel="noopener noreferrer"
-                size="lg"
-                target="_blank"
-              >
-                View All Icons
-              </Button>
-            </div>
           </Col>
         </Row>
         <div className="blur-hover">
