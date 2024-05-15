@@ -11802,7 +11802,7 @@ fieldset[disabled] .navbar .navbar-nav > a.btn.active {
 }
 .btn.btn-icon,
 .navbar .navbar-nav > a.btn.btn-icon {
-  height: 2.375rem;
+  height: 10.375rem;
   min-width: 2.375rem;
   width: 2.375rem;
   padding: 0;

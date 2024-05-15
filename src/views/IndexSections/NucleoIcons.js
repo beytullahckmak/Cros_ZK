@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.2.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
@@ -37,29 +20,13 @@ export default function NucleoIcons() {
           </Col>
         </Row>
         <div className="blur-hover">
-          <a href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/icons">
+          <a>
             <div className="icons-container blur-item on-screen mt-5">
-              {/* Center */}
-              <i className="icon tim-icons icon-coins" />
-              {/* Right 1 */}
-              <i className="icon icon-sm tim-icons icon-spaceship" />
-              <i className="icon icon-sm tim-icons icon-money-coins" />
-              <i className="icon icon-sm tim-icons icon-link-72" />
-              {/* Right 2 */}
-              <i className="icon tim-icons icon-send" />
-              <i className="icon tim-icons icon-mobile" />
-              <i className="icon tim-icons icon-wifi" />
-              {/* Left 1 */}
-              <i className="icon icon-sm tim-icons icon-key-25" />
-              <i className="icon icon-sm tim-icons icon-atom" />
-              <i className="icon icon-sm tim-icons icon-satisfied" />
-              {/* Left 2 */}
-              <i className="icon tim-icons icon-gift-2" />
-              <i className="icon tim-icons icon-tap-02" />
-              <i className="icon tim-icons icon-wallet-43" />
+           <i><img  src={require("assets/img/chester-wade.jpg")}/>
+            </i> 
             </div>
-            <span className="blur-hidden h5 text-primary">
-              Eplore all the 21.000+ Nucleo Icons
+            <span className="blur-hidden h1 text-primary">
+              CrosZK
             </span>
           </a>
         </div>
